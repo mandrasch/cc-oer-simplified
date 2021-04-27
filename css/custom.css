@@ -1,0 +1,32 @@
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.content h2 {
+    margin-top: 2rem;
+}
+
+.check-list li {
+    margin-bottom: 0.7rem;
+}
+
+.check-list.green li::marker {
+    color: green;
+    content: "✓ ";
+}
+
+.check-list.red li::marker {
+    color:red;
+    content: "X  ";
+}
+
+
+
+ul.check-list-without-icon > li::marker {
+    content: "► " !important;
+    color: orange !important;
+}
